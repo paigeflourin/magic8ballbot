@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Microsoft-ApiApp7896e7f4cb7f442aafd762df2a487cbb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\tangalin\\Work\\Magic8ball\ slack\\magic8ball\\magic8ball\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\tangalin\\Work\\Magic8ball\ slack\\magic8ball\\magic8ball\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+</parameters>
