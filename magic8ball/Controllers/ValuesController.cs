@@ -16,7 +16,7 @@ namespace magic8ball.Controllers
         }
 
         // GET api/values/5
-        public string Get(int id)
+        public string Get(int id) 
         {
             return "value";
         }
