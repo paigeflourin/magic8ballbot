@@ -57,7 +57,7 @@ namespace magic8ball.Controllers
 
             using (var client = new HttpClient())
             {
-                     
+                      
                 //Attachments attachments = new Attachments { Fallback = user + ": " + slackText + "\r\n magic8ball: " + randomAns, Color = "#000" , AuthorName = user , Title = "Magic 8 Ball" ,  Text = slackText + "\r\n magic8ball: " + randomAns };
                  Payload values = new Payload { Channel = slackChannel, Text =  user + ": " + slackText + "\r\n magic8ball: " + randomAns};
                 //Payload values = new Payload { Attachment = attachments, Channel = slackChannel };
