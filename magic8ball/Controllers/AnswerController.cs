@@ -69,7 +69,7 @@ namespace magic8ball.Controllers
                 response.Content = new StringContent(values.Attachment.Text, Encoding.Unicode);
             }
 
-           
+            
 
             return response;
 
